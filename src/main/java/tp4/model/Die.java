@@ -11,7 +11,7 @@ public class Die {
 
 
     public void roll() {
-        faceValue = generator.nextInt(1,6);
+        faceValue = generator.nextInt(1,7);
     }
 
     public int value() {
